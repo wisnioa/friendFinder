@@ -21,7 +21,7 @@
 			  var scoresDiff = 0;
 			
 			  for(var j=0; j<newFriendScores.length; j++){
-				scoresDiff += (Math.abs(parseInt(friendList[i].scores[j]) - parseInt(newFriendScores[j])));
+				scoresDiff += (Math.abs(parseInt(friends[i].scores[j]) - parseInt(newFriendScores[j])));
 			  }
 		
 			  scoresArray.push(scoresDiff);
